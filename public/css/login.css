@@ -1,0 +1,95 @@
+body {
+    color: #999;
+    background: #f5f5f5;
+    font-family: 'Varela Round', sans-serif;
+}
+.form-control {
+    box-shadow: none;
+    border-color: #ddd;
+}
+.form-control:focus {
+    border-color: #3B71CA; 
+}
+.login-form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.login-form form {
+    color: #434343;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+}
+.login-form h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.login-form img{
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* .login-form .avatar {
+    color: #fff;
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    z-index: 9;
+    background: #3B71CA;
+    padding: 15px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+} */
+.login-form .avatar i {
+    font-size: 62px;
+}
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+.login-form .form-control, .login-form .btn {
+    min-height: 40px;
+    border-radius: 10px; 
+    transition: all 0.5s;
+}
+.login-form .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.login-form .btn {
+    background: #3B71CA;
+    border: none;
+    line-height: normal;
+    border-radius: 10px;
+}
+.login-form .btn:hover, .login-form .btn:focus {
+    background: #3B71CA;
+}
+.login-form .checkbox-inline {
+    float: left;
+}
+.login-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+.login-form .forgot-link {
+    float: right;
+}
+.login-form .small {
+    font-size: 13px;
+}
+.login-form a {
+    color: #3B71CA;
+}
